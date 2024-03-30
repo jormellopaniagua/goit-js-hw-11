@@ -24,3 +24,10 @@
   height: 400px;
   width: 400px;
 }
+.load-space {
+  display: flex;
+  justify-content: center;
+}
+.load-more {
+  background-color: rgb(25, 118, 118);
+}

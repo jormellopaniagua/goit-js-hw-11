@@ -1,0 +1,26 @@
+.head {
+  height: 50px;
+  background-color: rgb(14, 108, 108);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.photo-card {
+  margin-bottom: 10px;
+  border: rgb(25, 118, 118) solid 3px;
+  border-radius: 5px;
+}
+.image {
+  height: 400px;
+  width: 400px;
+}

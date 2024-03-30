@@ -3,9 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 11</title>
+    <title>homework 11</title>
+    <!-- Importar estilos de SimpleLightbox -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.7.0/simple-lightbox.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="head">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <div class="gallery">
+      <!-- Tarjetas de imágenes se renderizarán aquí -->
+    </div>
+
+    <button type="button" class="load-more" style="display: none">
+      Load more
+    </button>
+
+    <!-- Importar biblioteca SimpleLightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.7.0/simple-lightbox.min.js"></script>
+    <!-- Vincular el archivo JavaScript -->
     <script src="index.js" type="module"></script>
   </body>
 </html>
